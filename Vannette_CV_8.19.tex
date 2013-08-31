@@ -1,0 +1,236 @@
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+% FONTS
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\defaultfontfeatures{Mapping=tex-text} % converts LaTeX specials (``quotes'' --- dashes etc.) to unicode
+\setromanfont [Ligatures={Common}, Numbers={OldStyle}]{Hoefler Text}
+\setmonofont[Scale=0.8]{Monaco} 
+\setsansfont[Scale=0.9]{Optima Regular} 
+% ---- CUSTOM AMPERSAND
+\newcommand{\amper}{{\fontspec[Scale=.95]{Hoefler Text}\selectfont\itshape\&}}
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+% DOCUMENT
+\textsc{\LARGE Rachel L. Vannette} - \textit{\LARGE Curriculum Vitae}\\
+
+\section{\small CONTACT}
+% first column
+\begin{minipage}[t]{0.5\textwidth}
+Stanford University\\
+Herrin Hall\\
+Stanford, C.A. 94043
+U.S.A.\\
+\end{minipage}
+%second column
+\begin{minipage}[t]{0.5\textwidth}
+Phone: 616-901-2782\\
+email: \href{mailto:vannette@stanford.edu}{vannette@stanford.edu}\\
+\textsc{web}: \href{davidvannette.com}{davidvannette.com}
+\end{minipage}
+
+\section{\small CURRENT POSITION}
+\emph{Postdoctoral Fellow}, Department of Communication, Stanford University
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{\small EDUCATION}
+
+\begin{tabular}{rl}
+\smallskip	
+\textsc{2016} & \textsc{Ph.D.} in Ecology and Evolutionary Biology, \textbf{University of Michigan} | \small Advisor: Prof. Mark \textsc{Hunter}\\
+\smallskip
+
+%------------------------------------------------
+
+\textsc{2006} & \textsc{B.S.} in Biology, \textbf{Calvin College} | \small Advisor: Prof. David \textsc{Warners}\\
+
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	Publications
+%----------------------------------------------------------------------------------------
+
+\section{\small PUBLISHED WORKS}
+
+\textit{Refereed articles} \medskip\\
+\noindent Conrad, F. G., Broome, J. S., Benki, J. R., Kreuter, F., Groves, R. M., \textbf{Vannette, D.L.}, \amper{}  McClain, C. (2013). Interviewer speech and the success of survey invitations. \textit {Journal of the Royal Statistical Society:}
+ \textit{Series A \\ (Statistics in Society)}, 176(1), 191-210.\\
+
+
+\textit{Book chapters} \medskip\\
+\textbf{Vannette, D.L.}, and Krosnick, J.A., (\textit{forthcoming}) Answering Questions: A Comparison of Survey Satisficing and Mindlessness, in \textit{The Wiley-Blackwell Handbook of Mindfulness}. Eds. Amanda Ie, Christelle T. Ngoumen and Ellen J. Langer
+
+Branch, J.D., Hershey, L., and \textbf{Vannette, D.L.}, (2011) The Use of RISK\textregistered{} for Introducing Marketing \\ Strategy. In \textit{Beyond Transmission: Innovations in University Teaching.} Eds. Claus Nygaard, Nigel Courtney, and Clive Holtham. Faringdon, Oxfordshire: Libri. Print.\\
+
+
+\textit{Case studies} \medskip \\
+Prudential Life Insurance: A Positive Approach to Change Management \\ 
+\textit{with Kim Cameron}; Published by GlobaLens - The William Davidson Institute at the University of Michigan
+
+Living Homes: Creating a Sustainable Business Building Green Homes \\
+\textit{with Andrew Hoffman, Rebecca Henn, and Grace Augustine}; Published by GlobaLens - The William Davidson Institute at the University of Michigan
+
+Branding Israel \\
+\textit{with Rajeev Batra and Grace Augustine}; Published by GlobaLens - The William Davidson Institute at the University of Michigan
+
+Trojan UV \\
+Published in: Purchasing and Supply Management. (14th edition). Eds. P. Fraser Johnson, Michiel R. Leenders, and Anna E. Flynn. Boston: McGraw-Hill/Irwin, 2011. Print.\\
+
+
+\textit{Conference proceedings} \medskip\\
+Conrad, F.G., Broome, J.S., Benki, J.R., Groves, R.M., Kreuter, F., and \textbf{Vannette, D.L.} (2010) To Agree or Not to Agree: Effects of Spoken Language on Survey Participation Decisions. \textit{Public Opinion Quarterly}. Proceedings of the Sixty-Fifth Annual Conference of the American Association for Public Opinion Research. 74(3): 596-598
+
+%----------------------------------------------------------------------------------------
+%	WORKING PAPERS & ONGOING RESEARCH
+%----------------------------------------------------------------------------------------
+
+\section{\small WORKING PAPERS \amper{} ONGOING RESEARCH}
+
+Identifying Likely (and Unlikely) Voters in Pre-Election Polls: Results from the 2008 ANES (with Jon A. Krosnick)\medskip \\
+Voter Mobilization Effects of Poll Reports During the 2012 Presidential Campaign (with Sean J. Westwood) 
+\medskip\\
+Do Interviewers Make Good Tailors? The Effect of Conversational Introductions on Survey Participation
+
+%----------------------------------------------------------------------------------------
+%	INVITED TALKS
+%----------------------------------------------------------------------------------------
+
+\section{\small INVITED TALKS}
+
+Vannette, D.L., (2012). Improving Survey Website Usability. Invited lecture at the \emph{National Science Foundation} Conference on The Future of Survey Research. November 8-9. Arlington, VA. 
+\medskip \\
+Vannette, D.L., (2011) Online Survey Research: Findings, Best Practices, and Future Research. Paper presented at The Advertising Research Foundation Research Quality Forum. April 7th, 2011. New York, NY.\\
+
+%----------------------------------------------------------------------------------------
+%	CONFERENCE PRESENTATIONS
+%----------------------------------------------------------------------------------------
+
+\section{\small CONFERENCE PRESENTATIONS}
+
+Vannette, D.L., and Westwood, S.J., (2013). Voter Mobilization Effects of Poll Reports During the 2012 \\ Presidential Campaign. Paper presented at 68th Annual Conference of the American Association for Public Opinion Research, May 16-19, Boston, MA.
+\medskip \\
+Vannette, D.L., and Krosnick, J.A., (2013). Mindlessness and Mindfulness in the Survey Context. Paper\\ presented at 68th Annual Conference of the American Association for Public Opinion Research, May 16-19, Boston, MA.
+\medskip \\
+Vannette, D.L., (2013). Evidence of Interviewer Tailoring in Telephone Interview Introductions. Paper\\ presented at The Interviewer-Respondent Interaction Workshop, May 15-16, Boston, MA.
+\medskip \\
+Vannette, D.L., (2012). Do Interviewers Make Good Tailors? The Effect of Conversational Interviewer\\ Introductions on Survey Participation. Paper presented at The RC33 8th International Conference on Social Science Methodology, July 9-13, Sydney, Australia. 
+\medskip \\
+Vannette, D.L., Krosnick, J.A., DeBell, M., \amper{} Wilson, C., (2012). Identifying Likely Voters in Pre-Election Polls: Comparing Methods to Find the Best One. Paper presented at the 67th Annual Conference of the American Association for Public Opinion Research. May 17-20, Orlando FL.\\
+
+%----------------------------------------------------------------------------------------
+%	TEACHING EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{\small TEACHING EXPERIENCE }
+
+Teaching Assistant - Stanford University (2012) Summer Institute in Political Psychology
+
+Teaching Assistant  - University of Michigan Ross School of Business (2006-2011)
+\begin{itemize}
+\item Marketing Management - Core Marketing MBA course 
+\item The World Economy - Core Strategy MBA course 
+\item International Marketing Management - Elective Marketing MBA course 
+\end{itemize}
+Guest Lecturer - Moscow State University Graduate School of Business (2008) \textit{Writing Business Case Studies} - two week short-course for faculty 
+
+%----------------------------------------------------------------------------------------
+%	COMPETITIVE GRANTS AND AWARDS 
+%----------------------------------------------------------------------------------------
+
+\section{\small COMPETITIVE GRANTS AND AWARDS }
+\begin{tabular}{l}
+
+2013 American Association for Public Opinion Research Student Travel Grant - \$500
+\smallskip\\
+2013 Interviewer-Respondent Interaction Workshop Travel Grant from the Charles Cannell and Rensis \\ Likert Funds in Research in Survey Methodology - \$550
+\smallskip\\
+2012 American Association for Public Opinion Research Student Travel Grant - \$500
+\smallskip\\
+2010 University of Michigan Rackam Graduate School Travel Grant - \$950
+\smallskip\\
+2009 University of Michigan Program in Survey Methodology Travel Grant - \$500 
+\smallskip\\
+2009 University of Michigan Program in Survey Methodology Survey Research Operations Traineeship -\\ \$75,000 (declined)
+\smallskip\\
+2007 University of Western Ontario Ivey School of Business Case Writing Clinic - Best Case Study Award 
+\smallskip\\
+2002-2006 Calvin College Faculty Honors Scholarship - \$5000/year
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	REVIEWER  
+%----------------------------------------------------------------------------------------
+
+\section{\small REVIEWER  }
+
+\emph{Public Opinion Quarterly; Survey Research Methods}
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
